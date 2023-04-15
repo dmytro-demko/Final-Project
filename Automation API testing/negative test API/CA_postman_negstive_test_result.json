@@ -1,0 +1,210 @@
+{
+	"id": "cb5daf7c-f80d-4432-acb1-5591eeb6bc91",
+	"name": "CA_negative_autonation",
+	"timestamp": "2023-04-14T22:16:15.667Z",
+	"collection_id": "26303992-224110c1-25f4-4194-94a6-3ae4ccd1f52b",
+	"folder_id": 0,
+	"environment_id": "26303992-0427fa54-9271-49fd-ab64-32cc3484c8d4",
+	"totalPass": 27,
+	"delay": "800",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-04-14T22:16:13.133Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e497c52a-e4a8-42e1-8d4e-120e13fab897",
+			"name": "Created address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses",
+			"time": 150,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Code is correct 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 1000B": true,
+				"Body is correct": true,
+				"ID is correct": true,
+				"Content-Type is present": true,
+				"Response assertions": true,
+				"Code is correct": true,
+				"Response time is acceptable": true
+			},
+			"testPassFailCounts": {
+				"Code is correct 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 1000B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"ID is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response assertions": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is acceptable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				150
+			],
+			"allTests": [
+				{
+					"Code is correct 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 1000B": true,
+					"Body is correct": true,
+					"ID is correct": true,
+					"Content-Type is present": true,
+					"Response assertions": true,
+					"Code is correct": true,
+					"Response time is acceptable": true
+				}
+			]
+		},
+		{
+			"id": "b1be596f-65cb-425b-bfb1-a86ca4984841",
+			"name": "Show one address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/?id=904831bd-92df-4397-bb86-3a5d895bc422",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Code is correct 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 5 KB": true,
+				"Body is correct": true,
+				"Content-Type is present": true,
+				"Body matches string": true,
+				"response should be okey to process": true,
+				"FN is correct": true,
+				"Country is correct": true,
+				"zipCode is correct": true,
+				"defaultAddressId": true,
+				"Header is correct": true,
+				"Code is correct": true,
+				"Response time is acceptable": true
+			},
+			"testPassFailCounts": {
+				"Code is correct 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 5 KB": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response should be okey to process": {
+					"pass": 1,
+					"fail": 0
+				},
+				"FN is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Country is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"zipCode is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"defaultAddressId": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is acceptable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				68
+			],
+			"allTests": [
+				{
+					"Code is correct 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 5 KB": true,
+					"Body is correct": true,
+					"Content-Type is present": true,
+					"Body matches string": true,
+					"response should be okey to process": true,
+					"FN is correct": true,
+					"Country is correct": true,
+					"zipCode is correct": true,
+					"defaultAddressId": true,
+					"Header is correct": true,
+					"Code is correct": true,
+					"Response time is acceptable": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 218,
+	"collection": {
+		"requests": [
+			{
+				"id": "e497c52a-e4a8-42e1-8d4e-120e13fab897",
+				"method": "POST"
+			},
+			{
+				"id": "b1be596f-65cb-425b-bfb1-a86ca4984841",
+				"method": "GET"
+			}
+		]
+	}
+}

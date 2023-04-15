@@ -1,0 +1,747 @@
+{
+	"id": "ea2445fd-054c-46df-a21d-65ea0fff8b49",
+	"name": "Califirnia marketing random autonation",
+	"timestamp": "2023-04-14T20:03:33.313Z",
+	"collection_id": "26303992-6cf53aab-ba78-4015-adca-7118ff7e047d",
+	"folder_id": 0,
+	"environment_id": "26303992-e5f47443-e542-4814-81cc-4df87162d173",
+	"totalPass": 97,
+	"delay": "800",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-04-14T20:03:25.569Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "fb56041b-b338-4b5b-be56-e81407a64442",
+			"name": "Created address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses",
+			"time": 171,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Code is correct 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 1000B": true,
+				"Body is correct": true,
+				"ID is correct": true,
+				"Content-Type is present": true,
+				"Response assertions": true,
+				"Code is correct": true,
+				"Response time is acceptable": true
+			},
+			"testPassFailCounts": {
+				"Code is correct 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 1000B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"ID is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response assertions": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is acceptable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				171
+			],
+			"allTests": [
+				{
+					"Code is correct 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 1000B": true,
+					"Body is correct": true,
+					"ID is correct": true,
+					"Content-Type is present": true,
+					"Response assertions": true,
+					"Code is correct": true,
+					"Response time is acceptable": true
+				}
+			]
+		},
+		{
+			"id": "5bf12dcd-e8f7-4035-a667-f04d34f3909d",
+			"name": "Show all addresses",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses",
+			"time": 78,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Code is correct 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 5 KB": true,
+				"Body is correct": true,
+				"Content-Type is present": true,
+				"response should be okey to process": true,
+				"FN is correct": true,
+				"Country is correct": true,
+				"defaultAddressId": true,
+				"Header is correct": true,
+				"Response body should be in correct form": true,
+				"Code is correct": true,
+				"Response time is acceptable": true
+			},
+			"testPassFailCounts": {
+				"Code is correct 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 5 KB": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response should be okey to process": {
+					"pass": 1,
+					"fail": 0
+				},
+				"FN is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Country is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"defaultAddressId": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body should be in correct form": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is acceptable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				78
+			],
+			"allTests": [
+				{
+					"Code is correct 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 5 KB": true,
+					"Body is correct": true,
+					"Content-Type is present": true,
+					"response should be okey to process": true,
+					"FN is correct": true,
+					"Country is correct": true,
+					"defaultAddressId": true,
+					"Header is correct": true,
+					"Response body should be in correct form": true,
+					"Code is correct": true,
+					"Response time is acceptable": true
+				}
+			]
+		},
+		{
+			"id": "97b3fb94-5bc6-493e-bd60-fdcb2e49dba8",
+			"name": "Show one address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/?id=5740cd99-9f7f-4712-9bd3-f9c0eda342e9",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Code is correct 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 5 KB": true,
+				"Body is correct": true,
+				"Content-Type is present": true,
+				"Body matches string": true,
+				"response should be okey to process": true,
+				"FN is correct": true,
+				"Country is correct": true,
+				"zipCode is correct": true,
+				"defaultAddressId": true,
+				"Header is correct": true,
+				"Code is correct": true,
+				"Response time is acceptable": true
+			},
+			"testPassFailCounts": {
+				"Code is correct 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 5 KB": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response should be okey to process": {
+					"pass": 1,
+					"fail": 0
+				},
+				"FN is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Country is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"zipCode is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"defaultAddressId": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is acceptable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				70
+			],
+			"allTests": [
+				{
+					"Code is correct 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 5 KB": true,
+					"Body is correct": true,
+					"Content-Type is present": true,
+					"Body matches string": true,
+					"response should be okey to process": true,
+					"FN is correct": true,
+					"Country is correct": true,
+					"zipCode is correct": true,
+					"defaultAddressId": true,
+					"Header is correct": true,
+					"Code is correct": true,
+					"Response time is acceptable": true
+				}
+			]
+		},
+		{
+			"id": "c8aa0727-365b-4599-8029-3ef2e3999786",
+			"name": "Ghange info",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/?id=5740cd99-9f7f-4712-9bd3-f9c0eda342e9",
+			"time": 129,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				129
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6b073f90-5eb9-4743-abfb-9acba5b6b8ff",
+			"name": "Check edited address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/5740cd99-9f7f-4712-9bd3-f9c0eda342e9",
+			"time": 78,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Code is correct 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 5 KB": true,
+				"Body is correct": true,
+				"Content-Type is present": true,
+				"Body matches string": true,
+				"response should be okey to process": true,
+				"FN is correct": true,
+				"Country is correct": true,
+				"zipCode is correct": true,
+				"defaultAddressId": true,
+				"Header is correct": true,
+				"Code is correct": true,
+				"Response time is acceptable": true
+			},
+			"testPassFailCounts": {
+				"Code is correct 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 5 KB": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response should be okey to process": {
+					"pass": 1,
+					"fail": 0
+				},
+				"FN is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Country is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"zipCode is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"defaultAddressId": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is acceptable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				78
+			],
+			"allTests": [
+				{
+					"Code is correct 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 5 KB": true,
+					"Body is correct": true,
+					"Content-Type is present": true,
+					"Body matches string": true,
+					"response should be okey to process": true,
+					"FN is correct": true,
+					"Country is correct": true,
+					"zipCode is correct": true,
+					"defaultAddressId": true,
+					"Header is correct": true,
+					"Code is correct": true,
+					"Response time is acceptable": true
+				}
+			]
+		},
+		{
+			"id": "2387181e-d233-47de-91b9-f2214e6fb4a9",
+			"name": "Delete address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/5740cd99-9f7f-4712-9bd3-f9c0eda342e9",
+			"time": 87,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Response size is less than 1000B": true,
+				"Content-Type is present": true,
+				"Content-Length is present": true,
+				"Connection is present": true,
+				"Server is present": true,
+				"Correct order is found": true,
+				"Successful POST request": true,
+				"Not one of the wrong code": true,
+				"Check respose- {}": true,
+				"Code is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 1000B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Length is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Server is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct order is found": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Not one of the wrong code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check respose- {}": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				87
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Response size is less than 1000B": true,
+					"Content-Type is present": true,
+					"Content-Length is present": true,
+					"Connection is present": true,
+					"Server is present": true,
+					"Correct order is found": true,
+					"Successful POST request": true,
+					"Not one of the wrong code": true,
+					"Check respose- {}": true,
+					"Code is correct": true
+				}
+			]
+		},
+		{
+			"id": "db82b68e-4598-4cb2-b317-befa926b8079",
+			"name": "Delete address (check)",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/5740cd99-9f7f-4712-9bd3-f9c0eda342e9",
+			"time": 59,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 1500ms": true,
+				"Response size is less than 1000B": true,
+				"Content-Type is present": true,
+				"X-Content-Type-Options is present": true,
+				"Connection is present": true,
+				"Content-Length is present": true,
+				"Server is present": true,
+				"Correct order is found": true,
+				"Response body is correct": true,
+				"Successful POST request": true,
+				"Not one of the wrong code": true,
+				"Message is include previously deleted ID": true,
+				"Not found. Check if you made correct request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 1000B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"X-Content-Type-Options is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Length is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Server is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct order is found": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Not one of the wrong code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message is include previously deleted ID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Not found. Check if you made correct request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				59
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 1500ms": true,
+					"Response size is less than 1000B": true,
+					"Content-Type is present": true,
+					"X-Content-Type-Options is present": true,
+					"Connection is present": true,
+					"Content-Length is present": true,
+					"Server is present": true,
+					"Correct order is found": true,
+					"Response body is correct": true,
+					"Successful POST request": true,
+					"Not one of the wrong code": true,
+					"Message is include previously deleted ID": true,
+					"Not found. Check if you made correct request": true
+				}
+			]
+		},
+		{
+			"id": "49a8cda7-58bd-4ec7-a306-3b3ea336469b",
+			"name": "Check deleted address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/5740cd99-9f7f-4712-9bd3-f9c0eda342e9",
+			"time": 57,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Response time is less than 1500ms": true,
+				"Response size is less than 1000B": true,
+				"Content-Type is present": true,
+				"X-Content-Type-Options is present": true,
+				"Connection is present": true,
+				"Content-Length is present": true,
+				"Server is present": true,
+				"Correct order is found": true,
+				"Successful POST request": true,
+				"Not one of the wrong code": true,
+				"Not found. Check if you made correct request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 1000B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"X-Content-Type-Options is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Length is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Server is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct order is found": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Not one of the wrong code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Not found. Check if you made correct request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				57
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Response time is less than 1500ms": true,
+					"Response size is less than 1000B": true,
+					"Content-Type is present": true,
+					"X-Content-Type-Options is present": true,
+					"Connection is present": true,
+					"Content-Length is present": true,
+					"Server is present": true,
+					"Correct order is found": true,
+					"Successful POST request": true,
+					"Not one of the wrong code": true,
+					"Not found. Check if you made correct request": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 729,
+	"collection": {
+		"requests": [
+			{
+				"id": "fb56041b-b338-4b5b-be56-e81407a64442",
+				"method": "POST"
+			},
+			{
+				"id": "5bf12dcd-e8f7-4035-a667-f04d34f3909d",
+				"method": "GET"
+			},
+			{
+				"id": "97b3fb94-5bc6-493e-bd60-fdcb2e49dba8",
+				"method": "GET"
+			},
+			{
+				"id": "c8aa0727-365b-4599-8029-3ef2e3999786",
+				"method": "PATCH"
+			},
+			{
+				"id": "6b073f90-5eb9-4743-abfb-9acba5b6b8ff",
+				"method": "GET"
+			},
+			{
+				"id": "2387181e-d233-47de-91b9-f2214e6fb4a9",
+				"method": "DELETE"
+			},
+			{
+				"id": "db82b68e-4598-4cb2-b317-befa926b8079",
+				"method": "DELETE"
+			},
+			{
+				"id": "49a8cda7-58bd-4ec7-a306-3b3ea336469b",
+				"method": "GET"
+			}
+		]
+	}
+}
