@@ -1,0 +1,705 @@
+{
+  "id": "51c4ddb4-f47d-4aba-a396-778e0d573f0a",
+  "version": "2.0",
+  "name": "Rockets",
+  "url": "https://www.wikipedia.org",
+  "tests": [{
+    "id": "d1f78443-455d-469e-aef0-40a34f60733a",
+    "name": "Rockets",
+    "commands": [{
+      "id": "0a408f88-a191-4815-a94e-1f6821e520bb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f1cfdc3-85cd-48bd-a0e1-5925da064002",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x896",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb301f08-c5a2-4113-955f-ee73ecf5a07c",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Wikipedia",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "270d799f-beb7-4eba-986c-ccf7d709b06d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.central-textlogo__image",
+      "targets": [
+        ["css=.central-textlogo__image", "css:finder"],
+        ["xpath=//body[@id='www-wikipedia-org']/div[3]/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Wikipedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf5e1621-efff-490c-9ad4-13b0af0bc2f3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.central-featured",
+      "targets": [
+        ["css=.central-featured", "css:finder"],
+        ["xpath=//body[@id='www-wikipedia-org']/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f474eec3-5610-4f34-892f-b1fcf97b3a95",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.localized-slogan",
+      "targets": [
+        ["css=.localized-slogan", "css:finder"],
+        ["xpath=//body[@id='www-wikipedia-org']/div[5]/h1/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'The Free Encyclopedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4882f794-ba87-4615-ba54-020ccd01b8f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95fdfe45-e2f2-4b6a-b670-041a4d2c58f6",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "rockets"
+    }, {
+      "id": "4db828d1-ef30-40b8-8f1a-12f188ffcf54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.svg-search-icon",
+      "targets": [
+        ["css=.svg-search-icon", "css:finder"],
+        ["xpath=//form[@id='search-form']/fieldset/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"],
+        ["xpath=//i[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d68f6f3f-af25-49fa-9013-261656d746a5",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Rocket - Wikipedia",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0310062-d806-4717-8c3d-4a5184243639",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.mw-page-title-main",
+      "targets": [
+        ["css=.mw-page-title-main", "css:finder"],
+        ["xpath=//h1[@id='firstHeading']/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Rocket')]", "xpath:innerText"]
+      ],
+      "value": "Rocket"
+    }, {
+      "id": "3e7b4804-b536-4d2b-8929-444a80ad1702",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.mw-parser-output > p:nth-child(7)",
+      "targets": [
+        ["css=.mw-parser-output > p:nth-child(7)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[3]", "xpath:idRelative"],
+        ["xpath=//p[3]", "xpath:position"]
+      ],
+      "value": "A rocket (from Italian: rocchetto, lit. 'bobbin/spool')[nb 1][1] is a vehicle that uses jet propulsion to accelerate without using the surrounding air. A rocket engine produces thrust by reaction to exhaust expelled at high speed.[2] Rocket engines work entirely from propellant carried within the vehicle; therefore a rocket can fly in the vacuum of space. Rockets work more efficiently in a vacuum and incur a loss of thrust due to the opposing pressure of the atmosphere."
+    }, {
+      "id": "9d3cc73f-80dd-4237-a322-52a8695d1ddc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(8)",
+      "targets": [
+        ["css=p:nth-child(8)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[4]", "xpath:idRelative"],
+        ["xpath=//p[4]", "xpath:position"],
+        ["xpath=//p[contains(.,'Multistage rockets are capable of attaining escape velocity from Earth and therefore can achieve unlimited maximum altitude. Compared with airbreathing engines, rockets are lightweight and powerful and capable of generating large accelerations. To control their flight, rockets rely on momentum, airfoils, auxiliary reaction engines, gimballed thrust, momentum wheels, deflection of the exhaust stream, propellant flow, spin, or gravity.')]", "xpath:innerText"]
+      ],
+      "value": "Multistage rockets are capable of attaining escape velocity from Earth and therefore can achieve unlimited maximum altitude. Compared with airbreathing engines, rockets are lightweight and powerful and capable of generating large accelerations. To control their flight, rockets rely on momentum, airfoils, auxiliary reaction engines, gimballed thrust, momentum wheels, deflection of the exhaust stream, propellant flow, spin, or gravity."
+    }, {
+      "id": "7eca2b8a-a2cb-4cf7-9b53-bbf051b14e96",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.mw-page-title-main",
+      "targets": [
+        ["css=.mw-page-title-main", "css:finder"],
+        ["xpath=//h1[@id='firstHeading']/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Rocket')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4203829a-beb1-4576-8a2b-ca6c5eca1134",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.thumb:nth-child(6) .thumbimage",
+      "targets": [
+        ["css=.thumb:nth-child(6) .thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d05546ea-4823-40ed-b530-476c41b038fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#toc-History .vector-toc-text",
+      "targets": [
+        ["css=#toc-History .vector-toc-text", "css:finder"],
+        ["xpath=//li[@id='toc-History']/a/div", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b79edfd6-a138-4fe5-936c-23a407fa143e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.thumb:nth-child(17) .thumbimage",
+      "targets": [
+        ["css=.thumb:nth-child(17) .thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[6]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bac7cdc-6875-4050-aaed-2338d3ea5712",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=History",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "b65d30c2-93d3-4b64-9200-4d3d56209498",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=History",
+      "targets": [],
+      "value": "History"
+    }, {
+      "id": "6ae37102-9658-48b1-a9e0-9e66e5b5ec28",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(18)",
+      "targets": [
+        ["css=p:nth-child(18)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[7]", "xpath:idRelative"],
+        ["xpath=//p[7]", "xpath:position"]
+      ],
+      "value": "In China, gunpowder-powered rockets evolved in medieval China under the Song dynasty by the 13th century. They also developed an early form of MLRS during this time. The Mongols adopted Chinese rocket technology and the invention spread via the Mongol invasions to the Middle East and to Europe in the mid-13th century.[4] According to Joseph Needham, the Song navy used rockets in a military exercise dated to 1245. Internal-combustion rocket propulsion is mentioned in a reference to 1264, recording that the \"ground-rat\", a type of firework, had frightened the Empress-Mother Gongsheng at a feast held in her honor by her son the Emperor Lizong.[5] Subsequently, rockets are included in the military treatise Huolongjing, also known as the Fire Drake Manual, written by the Chinese artillery officer Jiao Yu in the mid-14th century. This text mentions the first known multistage rocket, the 'fire-dragon issuing from the water' (Huo long chu shui), thought to have been used by the Chinese navy.[6]"
+    }, {
+      "id": "7d5aac10-6e62-4e3d-a02a-0ce8e5c82a56",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#toc-Types .vector-toc-text",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e51938a-637d-4b3e-bb11-4b9d075ce038",
+      "comment": "",
+      "command": "click",
+      "target": "css=#toc-Design > .vector-toc-link > .vector-toc-text",
+      "targets": [
+        ["css=#toc-Design > .vector-toc-link > .vector-toc-text", "css:finder"],
+        ["xpath=//li[@id='toc-Design']/a/div", "xpath:idRelative"],
+        ["xpath=//li[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84730e33-97d2-4727-857b-8fbc25212330",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=Design",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "e55c8a22-4d1a-4930-ba5a-aa5daa905f41",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.thumb:nth-child(51) .thumbimage",
+      "targets": [
+        ["css=.thumb:nth-child(51) .thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[15]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[15]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ebb263e-6df3-4c9c-ae5d-fc0aa7eb0c1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#toc-Uses > .vector-toc-link > .vector-toc-text",
+      "targets": [
+        ["css=#toc-Uses > .vector-toc-link > .vector-toc-text", "css:finder"],
+        ["xpath=//li[@id='toc-Uses']/a/div", "xpath:idRelative"],
+        ["xpath=//li[5]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d16970a-e4c3-4c1a-8d7c-e3da16fd6d05",
+      "comment": "",
+      "command": "click",
+      "target": "css=#toc-Military .vector-toc-text",
+      "targets": [
+        ["css=#toc-Military .vector-toc-text", "css:finder"],
+        ["xpath=//li[@id='toc-Military']/a/div", "xpath:idRelative"],
+        ["xpath=//li[5]/ul/li/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1814a83-78e7-4a2c-9861-510fa87d2759",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=Military",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "eb3f56cd-69af-4b40-be1a-e7284af8d59f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(71)",
+      "targets": [
+        ["css=p:nth-child(71)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[33]", "xpath:idRelative"],
+        ["xpath=//p[33]", "xpath:position"],
+        ["xpath=//p[contains(.,'Some military weapons use rockets to propel warheads to their targets. A rocket and its payload together are generally referred to as a missile when the weapon has a guidance system (not all missiles use rocket engines, some use other engines such as jets) or as a rocket if it is unguided. Anti-tank and anti-aircraft missiles use rocket engines to engage targets at high speed at a range of several miles, while intercontinental ballistic missiles can be used to deliver multiple nuclear warheads from thousands of miles, and anti-ballistic missiles try to stop them. Rockets have also been tested for reconnaissance, such as the Ping-Pong rocket, which was launched to surveil enemy targets, however, recon rockets have never come into wide use in the military.')]", "xpath:innerText"]
+      ],
+      "value": "Some military weapons use rockets to propel warheads to their targets. A rocket and its payload together are generally referred to as a missile when the weapon has a guidance system (not all missiles use rocket engines, some use other engines such as jets) or as a rocket if it is unguided. Anti-tank and anti-aircraft missiles use rocket engines to engage targets at high speed at a range of several miles, while intercontinental ballistic missiles can be used to deliver multiple nuclear warheads from thousands of miles, and anti-ballistic missiles try to stop them. Rockets have also been tested for reconnaissance, such as the Ping-Pong rocket, which was launched to surveil enemy targets, however, recon rockets have never come into wide use in the military."
+    }, {
+      "id": "d553602b-82b9-41c6-b8be-42ce66e5676d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.thumb:nth-child(70) .thumbimage",
+      "targets": [
+        ["css=.thumb:nth-child(70) .thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[20]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[20]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d3a9ae4-2bb2-4d8e-8336-65d8411e1873",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.thumb:nth-child(75) .thumbimage",
+      "targets": [
+        ["css=.thumb:nth-child(75) .thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[22]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[22]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8fe323f-7381-4bed-9241-9be3ed9e9fa9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.thumb:nth-child(28) .thumbimage",
+      "targets": [
+        ["css=.thumb:nth-child(28) .thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[9]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[9]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8631e28-69a9-47f2-a36c-7a971ea40edf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb72d53d-054b-455d-a338-32b445fae958",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-next-image",
+      "targets": [
+        ["css=.mw-mmv-next-image", "css:finder"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89f7adba-94b1-4c5c-bce4-9817aef73bbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-next-image",
+      "targets": [
+        ["css=.mw-mmv-next-image", "css:finder"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "697dfffd-be64-411b-8dd8-34683955aa40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-next-image",
+      "targets": [
+        ["css=.mw-mmv-next-image", "css:finder"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f8bc460-34c7-4813-bbd5-dd43ca2f082f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-next-image",
+      "targets": [
+        ["css=.mw-mmv-next-image", "css:finder"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffe7aa29-a962-4b7b-b976-ffb347d4c19a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-prev-image",
+      "targets": [
+        ["css=.mw-mmv-prev-image", "css:finder"],
+        ["xpath=//button[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0069009-400a-4809-9476-4b391898d2f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-prev-image",
+      "targets": [
+        ["css=.mw-mmv-prev-image", "css:finder"],
+        ["xpath=//button[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8345d02-4757-4e5d-bf43-8da0d83e032c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-prev-image",
+      "targets": [
+        ["css=.mw-mmv-prev-image", "css:finder"],
+        ["xpath=//button[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66207df9-5c20-4fb7-b643-8bd3958f16c3",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.mw-mmv-prev-image",
+      "targets": [
+        ["css=.mw-mmv-prev-image", "css:finder"],
+        ["xpath=//button[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32777eca-11d8-4e2c-91d6-b9b2428de5a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-prev-image",
+      "targets": [
+        ["css=.mw-mmv-prev-image", "css:finder"],
+        ["xpath=//button[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33e329b8-fef2-45bf-85a5-cb25aa364cfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-close",
+      "targets": [
+        ["css=.mw-mmv-close", "css:finder"],
+        ["xpath=//div[4]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ee05ab0-1d06-4bc2-9a5e-986fa64e2fb8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,852)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5253acf-ff50-4ac6-925b-dea5e76f0dcc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,173)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6467dc4e-5543-484a-b8ab-0e70d9ff3a66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.thumb:nth-child(6) .thumbimage",
+      "targets": [
+        ["css=.thumb:nth-child(6) .thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "620b2cf5-2279-46bf-bb4e-4a00cc58cfb4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "332b9f08-cc72-48d4-bf4a-6d6202854501",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-next-image",
+      "targets": [
+        ["css=.mw-mmv-next-image", "css:finder"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b2f2efa-46d6-4583-825d-42ba5c3785d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-next-image",
+      "targets": [
+        ["css=.mw-mmv-next-image", "css:finder"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbfdb6c0-c3d1-4fc7-838d-4eea272c8bfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-next-image",
+      "targets": [
+        ["css=.mw-mmv-next-image", "css:finder"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81433d20-1df1-401b-88c1-709170af7e38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-next-image",
+      "targets": [
+        ["css=.mw-mmv-next-image", "css:finder"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba6673db-9ce9-4fb3-befa-0c4820db49ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-close",
+      "targets": [
+        ["css=.mw-mmv-close", "css:finder"],
+        ["xpath=//div[4]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d36c406-214e-444e-b31d-843b6cc3adcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#toc-Rescue .vector-toc-text",
+      "targets": [
+        ["css=#toc-Rescue .vector-toc-text", "css:finder"],
+        ["xpath=//li[@id='toc-Rescue']/a/div", "xpath:idRelative"],
+        ["xpath=//li[5]/ul/li[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d07c255-a4c1-4968-828e-dcda44368b8e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=Rescue",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "66166755-e997-4cd8-a487-49c1897e05b1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(85)",
+      "targets": [
+        ["css=p:nth-child(85)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[38]", "xpath:idRelative"],
+        ["xpath=//p[38]", "xpath:position"],
+        ["xpath=//p[contains(.,'Some crewed rockets, notably the Saturn V[44] and Soyuz,[45] have launch escape systems. This is a small, usually solid rocket that is capable of pulling the crewed capsule away from the main vehicle towards safety at a moments notice. These types of systems have been operated several times, both in testing and in flight, and operated correctly each time.')]", "xpath:innerText"]
+      ],
+      "value": "Some crewed rockets, notably the Saturn V[44] and Soyuz,[45] have launch escape systems. This is a small, usually solid rocket that is capable of pulling the crewed capsule away from the main vehicle towards safety at a moments notice. These types of systems have been operated several times, both in testing and in flight, and operated correctly each time."
+    }, {
+      "id": "b2ed548f-d592-4ba7-be2e-3584802304c9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.thumb:nth-child(83) .thumbimage",
+      "targets": [
+        ["css=.thumb:nth-child(83) .thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[24]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[24]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19ae6312-b8ac-4d2f-b132-4454960d294c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#toc-Flight .vector-toc-text",
+      "targets": [
+        ["css=#toc-Flight .vector-toc-text", "css:finder"],
+        ["xpath=//li[@id='toc-Flight']/a/div", "xpath:idRelative"],
+        ["xpath=//li[6]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e1489eb-7197-437a-8d85-a8b7fe3b3791",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=Flight",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10223897-77a2-4f6d-b91b-730c4a23ccfd",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.thumb:nth-child(106) .thumbimage",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "e19e4c23-40fb-403c-b8d9-11bf47681a0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#toc-Safety\\,_reliability_and_accidents .vector-toc-text",
+      "targets": [
+        ["css=#toc-Safety\\,_reliability_and_accidents .vector-toc-text", "css:finder"],
+        ["xpath=//li[@id='toc-Safety,_reliability_and_accidents']/a/div", "xpath:idRelative"],
+        ["xpath=//div/ul/li[9]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f88e4eba-f93b-4240-82b9-e29c5fff2d28",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=Safety,_reliability_and_accidents",
+      "targets": [
+        ["id=Safety,_reliability_and_accidents", "id"],
+        ["css=#Safety\\,_reliability_and_accidents", "css:finder"],
+        ["xpath=//span[@id='Safety,_reliability_and_accidents']", "xpath:attributes"],
+        ["xpath=//div[@id='mw-content-text']/div/h2[8]/span[2]", "xpath:idRelative"],
+        ["xpath=//h2[8]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Safety, reliability and accidents')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46023b77-97d8-47ab-82e9-d1262fd0e530",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.thumb:nth-child(259) .thumbimage",
+      "targets": [
+        ["css=.thumb:nth-child(259) .thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[70]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[70]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fe39370-b2b9-40f1-9e6a-bd7ce3a2ca6f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=rocket propellants",
+      "targets": [
+        ["linkText=rocket propellants", "linkText"],
+        ["css=p:nth-child(261) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'rocket propellants')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p[116]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Rocket_propellant')])[6]", "xpath:href"],
+        ["xpath=//p[116]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'rocket propellants')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db9b5503-1d6e-476c-bd23-3f39340df79b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=rocket propellants",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d4f5dbf-37eb-482e-865c-714ea7d07e39",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Rocket propellant - Wikipedia",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f074df9-9766-48ba-99ea-2e540ca879a7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(7)",
+      "targets": [
+        ["css=p:nth-child(7)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Rocket propellant is the reaction mass of a rocket. This reaction mass is ejected at the highest achievable velocity from a rocket engine to produce thrust. The energy required can either come from the propellants themselves, as with a chemical rocket, or from an external source, as with ion engines.')]", "xpath:innerText"]
+      ],
+      "value": "Rocket propellant is the reaction mass of a rocket. This reaction mass is ejected at the highest achievable velocity from a rocket engine to produce thrust. The energy required can either come from the propellants themselves, as with a chemical rocket, or from an external source, as with ion engines."
+    }, {
+      "id": "1c04772b-b5b1-4417-bb2c-f7097bfd739e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.mw-page-title-main",
+      "targets": [
+        ["css=.mw-page-title-main", "css:finder"],
+        ["xpath=//h1[@id='firstHeading']/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Rocket propellant')]", "xpath:innerText"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "cf0e2894-b2be-42d0-b83e-dd47c8177a7a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.back()",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd8f456b-8cd4-4a14-b8b9-99777240564c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "917aec4e-2d5e-48d9-a18f-f9a8d0425d0c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d1f78443-455d-469e-aef0-40a34f60733a"]
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}
